@@ -7,6 +7,8 @@
 
 # Frontend
 !frontend/
+!frontend/.dockerignore
+!frontend/Dockerfile
 !frontend/tsconfig.json
 !frontend/webpack.config.js
 !frontend/package-lock.json
