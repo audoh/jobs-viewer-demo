@@ -3,6 +3,7 @@
 # Mono-repo
 !.gitignore
 !README.md
+!docker-compose.yml
 
 # Frontend
 !frontend/
@@ -11,3 +12,4 @@
 
 # Backend
 !backend/
+
