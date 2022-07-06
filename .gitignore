@@ -1,0 +1,13 @@
+*
+
+# Mono-repo
+!.gitignore
+!README.md
+
+# Frontend
+!frontend/
+!frontend/package-lock.json
+!frontend/package.json
+
+# Backend
+!backend/
