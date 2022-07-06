@@ -13,11 +13,23 @@
 !frontend/webpack.config.js
 !frontend/package-lock.json
 !frontend/package.json
-!frontend/web/
-!frontend/web/*
+!frontend/public/
+!frontend/public/*
 !frontend/src/
 !frontend/src/*
 
 # Backend
 !backend/
-
+!backend/.dockerignore
+!backend/Dockerfile
+!backend/symfony.lock
+!backend/composer.lock
+!backend/composer.json
+!backend/public/
+!backend/public/*
+!backend/src/
+!backend/src/*
+!backend/config/
+!backend/config/*
+!backend/bin/
+!backend/bin/*
