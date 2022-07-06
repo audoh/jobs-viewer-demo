@@ -7,8 +7,14 @@
 
 # Frontend
 !frontend/
+!frontend/tsconfig.json
+!frontend/webpack.config.js
 !frontend/package-lock.json
 !frontend/package.json
+!frontend/web/
+!frontend/web/*
+!frontend/src/
+!frontend/src/*
 
 # Backend
 !backend/
