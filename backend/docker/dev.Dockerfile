@@ -13,4 +13,3 @@ RUN curl -sS https://get.symfony.com/cli/installer | bash
 RUN mv /root/.symfony/bin/symfony /usr/local/bin/symfony
 
 WORKDIR /usr/src/app
-COPY . ./

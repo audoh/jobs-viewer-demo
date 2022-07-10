@@ -17,6 +17,8 @@
 !frontend/public/*
 !frontend/src/
 !frontend/src/*
+!frontend/docker/
+!frontend/docker/*
 
 # Backend
 !backend/
@@ -33,3 +35,13 @@
 !backend/config/*
 !backend/bin/
 !backend/bin/*
+!backend/docker/
+!backend/docker/*
+
+# NGINX
+!nginx/
+!nginx/default.conf
+
+# Docker
+!docker-compose/
+!docker-compose/*
