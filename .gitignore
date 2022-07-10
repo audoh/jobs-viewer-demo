@@ -14,11 +14,11 @@
 !frontend/package-lock.json
 !frontend/package.json
 !frontend/public/
-!frontend/public/*
+!frontend/public/**
 !frontend/src/
-!frontend/src/*
+!frontend/src/**
 !frontend/docker/
-!frontend/docker/*
+!frontend/docker/**
 
 # Backend
 !backend/
@@ -28,15 +28,15 @@
 !backend/composer.lock
 !backend/composer.json
 !backend/public/
-!backend/public/*
+!backend/public/**
 !backend/src/
-!backend/src/*
+!backend/src/**
 !backend/config/
-!backend/config/*
+!backend/config/**
 !backend/bin/
-!backend/bin/*
+!backend/bin/**
 !backend/docker/
-!backend/docker/*
+!backend/docker/**
 
 # NGINX
 !nginx/
@@ -44,4 +44,4 @@
 
 # Docker
 !docker-compose/
-!docker-compose/*
+!docker-compose/**
