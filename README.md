@@ -10,8 +10,9 @@ JOB_SERVICE_URL="http://localhost:8081"
 PROPERTY_SERVICE_URL="http://localhost:8081"
 ```
 
-- composer install
-- npm install
+- cd ./backend && composer install
+- cd .frontend && npm install
 - ./develop.sh
+- cd ./backend
 - php bin/console doctrine:database:create
 - php bin/console doctrine:schema:update --force
