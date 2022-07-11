@@ -11,7 +11,7 @@ PROPERTY_SERVICE_URL="http://localhost:8081"
 ```
 
 - cd ./backend && composer install
-- cd .frontend && npm install
+- cd ./frontend && npm install
 - ./develop.sh
 - cd ./backend
 - php bin/console doctrine:database:create
