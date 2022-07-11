@@ -4,10 +4,12 @@
 !.gitignore
 !README.md
 !docker-compose.yml
+!develop.sh
 
 # Frontend
 !frontend/
 !frontend/.dockerignore
+!frontend/.eslintignore
 !frontend/Dockerfile
 !frontend/tsconfig.json
 !frontend/webpack.config.js
