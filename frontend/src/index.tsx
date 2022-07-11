@@ -1,5 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App";
+import React from 'react';
+import * as ReactDOMClient from 'react-dom/client';
+import App from './App';
+const ArrowBackIcon = require('@mui/icons-material/ArrowBack');
 
-ReactDOM.render(<App/>, document.querySelector("#root"));
+const root = ReactDOMClient.createRoot(document.querySelector('#root'));
+root.render(<App/>);
