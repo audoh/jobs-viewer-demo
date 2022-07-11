@@ -8,6 +8,8 @@ services:
       - MYSQL_ROOT_PASSWORD
       - MYSQL_USER
       - MYSQL_PASSWORD
+    ports:
+      - 8083:3306
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
@@ -25,6 +27,8 @@ services:
     build: 
       context: ../backend
       dockerfile: ../backend/docker/dev.Dockerfile
+    environment:
+      - DATABASE_URL
     ports:
       - 9000:9000
     volumes:
@@ -47,7 +51,9 @@ services:
       context: ../frontend
       dockerfile: ../frontend/docker/dev.Dockerfile
     environment:
-      WATCHPACK_POLLING: "true"
+      - WATCHPACK_POLLING="true"
+      - JOB_SERVICE_URL
+      - PROPERTY_SERVICE_URL
     volumes:
       - ../frontend:/var/www/frontend
     entrypoint: "npm run start"
